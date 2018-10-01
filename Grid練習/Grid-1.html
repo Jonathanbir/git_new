@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.container{
+			width: 90%;
+			height: 800px;
+			font-size: 50px;	
+			display: grid;
+			outline: 2px solid #f00;
+			grid-template-rows:200px 200px 200px auto;
+			grid-template-columns:2fr 2fr 1fr 1fr;
+			grid-template-areas:
+				"B2 B4 B3 B3"
+				"B2 B4 B3 B3"
+				"B2 B4 B3 B3"
+				"B1 B1 B1 B1";
+			grid-gap: 10px;
+			padding: 10px;
+		}
+
+		.AA{ 
+			grid-area:B1;
+			background-color: #faa;
+		}
+		.BB{ 
+			grid-area:B2;
+			background-color: #afa;
+		}
+		.CC{ 
+			grid-area:B3;
+			background-color: #aaf;
+
+		}
+
+		.DD{
+			grid-area:B4;
+			background-color: #fa3;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="AA">A</div>
+		<div class="BB">B</div>
+		<div class="CC">C</div>
+		<div class="DD">D</div>
+	</div>
+
+	
+
+
+	
+</body>
+</html>
