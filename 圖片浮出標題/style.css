@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.box img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin-top: 0;
+    vertical-align: top;
+}
+
+.txt{
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    transition: 1s;
+}
+
+
+.txt h3{
+    margin: 0;
+}
+
+.txt p{
+    margin: 0;
+    font-size: 9px;
+}
+
+.box:hover .txt{
+    margin-top: -100px;
+    opacity: .6;
+}
