@@ -131,10 +131,10 @@ body{
     margin-left: 10px;
 }
 
-.navgation ul li:hover a{
+/* .navgation ul li:hover a{
     color:#fbbe3f;
 
-}
+} */
 
 .navgation .active{
     color:#fbbe3f;
@@ -176,6 +176,7 @@ body{
     position: relative;
     left: 210px;
     width: 210px;
+    margin-top: 4px;
     display: inline-block;
 }
 
@@ -190,9 +191,9 @@ body{
     padding: 5px;
 }
 
-.social_media a:hover i{
+/* .social_media a:hover i{
     color:#fbbe3f;
-}
+} */
 
 .social_media a:last-child{
     margin-left: 10px;
@@ -876,7 +877,7 @@ body{
 
 
 .special-title .special-nav{
-    width: 420px;
+    width: 430px;
     /* height: 15px; */
     margin: auto;
     /* background: #aaa; */
@@ -922,6 +923,7 @@ body{
 
 .special-title .special-nav ul li:nth-child(2) a{
     font-weight: 900;
+    /* font-size: 14px; */
 }
 
 .special-wrap{
@@ -966,7 +968,7 @@ body{
     letter-spacing: normal;
     text-align: center;
     color:#444;
-    opacity: 0.85;
+    opacity: 0.75;
 }
 
 
