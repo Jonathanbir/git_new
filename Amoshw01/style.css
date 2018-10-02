@@ -1166,18 +1166,113 @@ a{
 
 .partner .partner-region{
     width: 917px;
+    height: 70px;
     margin:auto;
 }
 
 .partner-wrap .partner a{
     font-family: 'Open Sans', sans-serif;
+
     padding:0px 52px ;
     font-size: 30px;
     font-weight: 900;
     color: #333;
 }
 /*-------------------partner end-------------------*/
+/*-------------------footer start-1-----------------*/
+    .contact-us{
+        width: 100%;
+        background: #213047;
+        color: #fff;
+        
+    }
 
+    .contact-us h3{
+        font-family:Poppins;
+        font-size: 15px;
+        padding:5px;
+        text-align:left;
+    }
+
+    .contact-us p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        padding:5px;
+        text-align:left;
+        opacity: 0.85;
+    }
+
+    .contact-us a{
+        font-family:Poppins;
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .contact-us-region{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 960px;
+        margin: auto;
+    }
+
+    .contact-us-region .contact-us-item{
+        width: 230px;
+    }
+    .contact-us-item .contact-us-item:first-child h3{
+        font-family:Poppins;
+        font-size: 15px;
+        padding:5px;
+        text-align:left;
+    }
+
+    .contact-us-item .contact-us-item li a{
+        text-decoration: none;
+    }
+
+    .contact-us-item .contact-us-item:first-child p{
+
+    }
+
+
+    .contact-us-item .contact-us-item:nth-child(2) h3{
+
+    }
+
+    .contact-us-item .contact-us-item:nth-child(2) ul li{
+
+    }
+
+   
+  
+    .contact-us-item .contact-us-item:nth-child(3) ul li{
+
+    }
+
+    .contact-us-item .contact-us-item:nth-child(3) li a{
+
+    }
+    .contact-us-item .contact-us-item:nth-child(4) {
+
+    }
+    .contact-us-item .contact-us-item:nth-child(4) h3{
+
+    }
+    .contact-us-item .contact-us-item:nth-child(5) h3{
+
+    }
+    .contact-us-item .contact-us-item:nth-child(5) i{
+
+    }
+    .contact-us-item .contact-us-item:nth-child(5) p{
+
+    }
+    .contact-us-item .contact-us-item:nth-child(5) .new-sletter{
+
+    }
+/*-------------------footer end-1-------------------*/
+/*-------------------footer start-----------------*/
+/*-------------------footer end-------------------*/
 /* *{
     outline:none;
 } */
