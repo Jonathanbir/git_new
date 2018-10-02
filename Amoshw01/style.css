@@ -111,7 +111,7 @@ body{
     font-size: 14px;
     font-weight: 700;
     padding:20px 15px 20px 0;
-    line-height: 24px;
+    line-height: 30px;
     text-align: left;
     text-transform: uppercase;
     letter-spacing: normal;
@@ -291,8 +291,8 @@ body{
     transition: all 0.4s;
 }
 
-/* 
-.banner-tittle .button:first-child:hover {
+
+/* .banner-tittle .button:first-child:hover {
     background:none;
     color: #fbbe3f;
     padding:7px 34px;
@@ -695,8 +695,45 @@ body{
 
 .clients-pic img{
     /* float: left; */
+    position: relative;
     border-radius: 100%;
 }
+
+.clients-pic i{
+    font-size: 15px;
+    color: #fbbe3f;
+}
+
+.clients-infor .clients-pic i:nth-child(2){
+    position: relative;;
+    top: -18px;
+    right: -6px;
+}
+
+.clients-infor .clients-pic i:nth-child(3){
+    position: relative;;
+    top: -7px;
+    right:-8px;
+}
+
+.clients-infor .clients-pic i:nth-child(4){
+    position: relative;;
+    top: -1px;
+    right:-12px;
+}
+
+.clients-infor .clients-pic i:nth-child(5){
+    position: relative;;
+    top:-6px;
+    right:-16px;
+}
+
+.clients-infor .clients-pic i:nth-child(6){
+    position: relative;;
+    top: -18px;
+    right:-17px;
+}
+
 
 .clients-text{
     float: left;
@@ -839,10 +876,10 @@ body{
 
 
 .special-title .special-nav{
-    /* width: 450px; */
+    width: 420px;
     /* height: 15px; */
     margin: auto;
-    background: #aaa;
+    /* background: #aaa; */
 }
 
 .special-title .special-nav ul{
@@ -870,12 +907,21 @@ body{
 
 .special-title .special-nav ul li a{
     margin-bottom: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     padding-left: 13px;
+    padding-right: 8px;
+    font-size: 13px;
     font-family:Poppins;
     text-align: left;
     text-decoration: none;
     letter-spacing: normal; 
     color: #444;
+    border-right: solid 1px #444;
+}
+
+.special-title .special-nav ul li:nth-child(2) a{
+    font-weight: 900;
 }
 
 .special-wrap{
@@ -904,6 +950,7 @@ body{
     width:110px;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #e1e3e5;
     opacity: 0.5;
 }
