@@ -594,7 +594,7 @@ a{
 
 .img-region{
     /* width:794px; */
-    width: 60%;
+    width: 65%;
     margin: auto;
     padding-bottom: 20px;
 }
@@ -606,7 +606,7 @@ a{
 
 
 .projects img{
-    width: 252px;
+    width:31%;
     margin: 6px;   
 }
 
@@ -1390,8 +1390,14 @@ a{
     opacity: .5;
 }
 
-.footer-media i{
-    
+.footer .footer-media i{
+    opacity: .5;
+    padding: 0 10px;
+    padding-top: 25px;
+}
+
+.footer .fr{
+    float: right;
 }
 /*-------------------footer end-------------------*/
 /* *{
