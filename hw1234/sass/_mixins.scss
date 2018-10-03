@@ -1,0 +1,191 @@
+//字體大小
+@function newFontSize($size){
+    @return $base-font-size * $size;
+}
+
+//字體大小px轉換成Rem
+@function pxtoRem($px){
+    @return ($px/$base-font-size) * 1em;
+}
+
+
+
+// 按鈕顏色
+@mixin btnColor($color){
+    background-color: $color;
+    &:hover{
+        background-color:adjust-hue($color,20);
+    }
+}
+
+@mixin btnColor2($color){
+    background-color:saturate($color,50%);
+    &:hover{
+        background-color:desaturate($color,20%);
+    }
+}
+
+//隱藏文字(目的是將h1的文字放在logo裡，然後不要顯示出來)
+@mixin hide_text{
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+//功能設定(清除浮動)
+@mixin clearfix{
+    &:after {
+        content: " "; // 1
+        display: table; // 2
+        clear: both;
+   }
+}
+
+//水平垂直置中(絕對定位，需要設定該元素的長、寬)
+@mixin horver_center-a($width,$height){
+    width: $width;
+    height: $height;
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+}
+
+
+//垂直置中(transform:只有垂直置中，無水平置中，無需設定該元素的長、寬，另外若搭配margin:0 auto;，則可將要設定的元素設定畫面置中)
+@mixin ver_center-t{   
+    position: relative;
+    top:50%;//向下推外層空間的50%
+    transform:translateY(-50%);//以內元素的空間為基準，向上移動50%
+}
+
+//水平置中(transform:只有水平置中，無垂置中，無需設定該元素的長、寬)
+@mixin hor_center-t{   
+    position: relative;
+    left:50%;//向右推外層空間的50%
+    transform:translateX(-50%);//以內元素的空間為基準，向左移動50%
+}
+
+//RWD-將選單清除浮動後，變成2列或3列並水平置中(使用inline-block方法)
+@mixin menu_middle_inline($percent){
+    ul{
+        float: none;
+        text-align: center;//將li給置中，而並非文字置中
+        li{
+            float: none;
+            width:$percent;
+            text-align: center;//將li裡的文字置中
+            display: inline-block;//必需設定為inline-block，這樣才有辦法讓ul透過text-align:center去水平置中
+            @content;
+        }
+    }
+}
+
+
+
+//三角型
+@mixin tri-top-left($size,$color){
+position: absolute;
+border-top: $size solid $color;
+border-right: $size solid transparent;
+}
+
+
+@mixin tri-top-right($size,$color){
+position: absolute;
+border-top: $size solid $color;
+border-left: $size solid transparent;
+}
+
+@mixin tri-left-bottom($size,$color){
+position: absolute;
+border-bottom: $size solid $color;
+border-right: $size solid transparent;
+}
+
+@mixin tri-right-bottom($size,$color){
+position: absolute;
+border-bottom: $size solid $color;
+border-left: $size solid transparent;
+}
+
+//方向型三角形(往右)
+@mixin tri-d_right($size,$color){
+position: absolute;
+border-left: $size solid $color;
+border-top: $size solid transparent;
+border-bottom: $size solid transparent;
+}
+
+//方向型三角形(往下)
+@mixin tri-d_down($size,$color){
+position: absolute;
+border-top: $size solid $color;
+border-left: $size solid transparent;
+border-right: $size solid transparent;
+}
+
+//方向型三角形(往左)
+@mixin tri-d_left($size,$color){
+position: absolute;
+border-right: $size solid $color;
+border-top: $size solid transparent;
+border-bottom: $size solid transparent;
+}
+
+//方向型三角形(往上)
+@mixin tri-d_up($size,$color){
+position: absolute;
+border-bottom: $size solid $color;
+border-left: $size solid transparent;
+border-right: $size solid transparent;
+}
+
+//載入Font Awesome
+@mixin fontawesome($icon,$color){
+    content: $icon; //要寫成"\f107"這樣的格式，需注意
+    font-family: 'Font Awesome 5 free';
+    color: $color;
+    font-weight: 900;
+    position: absolute;
+    //下面content可以再輸入位置等資訊(right、top等)
+    @content
+}
+
+//載入svg圖片
+@mixin svg-icon($icon,$width,$height){
+    display: inline-block;
+    background-image: url("../images/icons/#{$icon}.png");
+    background-image: none ,url("../images/icons/#{$icon}.svg");
+    //由於在IE8之前，圖片是不能做多重選擇，所以加了none是為了若瀏覽器有支援多重選擇，此時就會顯示svg圖檔 
+    width: $width;
+    height: $height;
+}
+
+//scroll向上或是向下未讀的效果(利用視差錯覺)
+//參考卡斯柏文章https://wcc723.github.io/css/2013/09/25/background-att/
+@mixin bg-scroll-effect{
+    background:
+    linear-gradient(white 30%, hsla(0,0%,100%,0)),
+    linear-gradient(hsla(0,0%,100%,0), white 70%) bottom,
+    radial-gradient(at top, rgba(0,0,0,.2), transparent 70%),
+    radial-gradient(at bottom, rgba(0,0,0,.2), transparent 70%) bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+    background-attachment: local, local, scroll, scroll;
+    }
+
+//斷點設定
+@mixin pad {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin iphone5 {
+    @media(max-width: 320px) {
+        @content;
+    }
+}
