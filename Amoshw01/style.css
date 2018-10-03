@@ -1,1405 +1,472 @@
-*{
-    margin: 0;
-    padding: 0;
-    outline: 1px solid #f00;
-}
-
-body{
-    overflow-x: hidden;
-}
-
-a{
-    text-decoration: none;
-}
-
-.clearfix{
-    height: 0;
-    margin: 0;
-    clear: both;
-}
-
-.top-line{
-    width: 960px;
-    /* height: 105px; */
-    background-color: #fff;
-    margin: auto;
-}
-
-.top-line img{
-    float: left;
-    width: 100px;
-    height: 30px;
-    margin-top: 32px;
-    margin-left: 10px;
-}
-
-.top-line .info_section{
-    float: right;
-    /* width: 600px; */
-    height: 80px;
-    margin-top: 17px;
-}
-/* 最大包覆的div不要給任何width/height,由裡面的物件撐開 */
-.top-line .contact-info{
-    width:200px;
-    float: left;
-    margin-top: 15px;
-}
-
-.top-line .mid{
-    width: 235px !important;
-}
-
-.top-line .icon_container{
-    float: left;
-}
-
-.top-line .icon_container i{
-    height: 36px;
-    padding: 0 16px;
-    /* padding-right: 15px; */
-    font-size: 33px;
-    line-height: 33px;
-    text-align: left;
-    letter-spacing: normal;
-    color: #fbbe3f;
-}
-
-.info_container .info_text{
-    float: right;
-    width: 124px;
-}
-
-.info_container .small_string{
-   float: right;
-   padding: 1px;
-   font-family:Poppins;
-   font-size: 12px;
-   text-align: right;
-   color: #777;
-}
-
-.middle{
-    width: 142px !important;
-    float: left;
-}
-.info_container{
-    width: 191px;
-    /* margin-top: 5px; */
-}
-
-.info_container .big_string{
-    float: left;
-    /* width: 180px; */
-    font-family:Poppins;
-    /* font-size: 15px; */
-    line-height: 24px;
-    text-align: left;
-    letter-spacing: 0.36px;
-    color:#333;
-}
-
-.wl{
-    width: 255px !important;
-}
-
-.header{
-    width: 100%;
-    background-color: #213047;
-}
-
-.navgation{
-   width: 960px;
-   margin:auto;
-   background-color: #213047;
-}
-
-.navgation a{
-    font-family:"Open Sans";
-    font-size: 14px;
-    font-weight: 700;
-    padding:20px 15px 20px 0;
-    line-height: 30px;
-    text-align: left;
-    text-transform: uppercase;
-    letter-spacing: normal;
-    color:#fff;
-    text-decoration: none;
-}
-
-.navgation ul{
-    float: left;
-    
-}
-
-.navgation ul li{
-    display: inline-block;
-    float:left;
-    margin-top: 22px;
-    margin-left: 10px;
-}
-
-/* .navgation ul li:hover a{
-    color:#fbbe3f;
-
-} */
-
-.navgation .active{
-    color:#fbbe3f;
-}
-
-.navgation .active i{
-    font-style: normal;
-    font-variant-caps: normal;
-    -webkit-font-variant-ligatures: normal;
-    font-variant-ligatures: normal;
-    font-weight: bold;
-    line-height: 16px;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    margin-left: 6px;
-    font-size: 20px;
-    color:#fbbe3f;
-}
-
-.navgation ul li i{
-    padding-top: 5px;
-    font-style: normal;
-    font-variant-caps: normal;
-    -webkit-font-variant-ligatures: normal;
-    font-variant-ligatures: normal;
-    font-weight: bold;
-    line-height: 16px;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    margin-left: 6px;
-    font-size: 20px;
-    color:#fff;
-
-}
-
-.social_media {
-    position: relative;
-    left: 210px;
-    width: 210px;
-    margin-top: 4px;
-    display: inline-block;
-}
-
-.social_media a {
-    float:left;
-}
-
-.social_media a i{
-    font-size: 15px;
-    text-align: left;
-    letter-spacing: normal;
-    padding: 5px;
-}
-
-/* .social_media a:hover i{
-    color:#fbbe3f;
-} */
-
-.social_media a:last-child{
-    margin-left: 10px;
-
-}
-
-.wrap{
-    width:100%;
-    height:644px;
-    background-position: 55% 10% !important;
-    /* background-size:100% !important; */
-    background: linear-gradient(0deg,hsla(20,50%,0%,.3),hsla(20,50%,0%,.3)),url(image/asset\ 39.jpeg);   
-    margin: auto;
-}
-
-.banner{
-    width:960px;
-    height:644px;
-    background-position: 55% !important;
-    background-size: 157% !important;
-    margin: auto;
-    /* background: linear-gradient(0deg,hsla(20,50%,0%,.3),hsla(20,50%,0%,.3)),url(image/asset\ 39.jpeg); */
-}
-
-
-.banner-tittle-region{
-    width: 960px;
-    margin: auto;
-    padding-top: 215px;
-}
-
-.banner-button{
-    margin: auto;
-    margin-top:28px;
-}
-
-
-
-.banner-tittle{
-    width: 600px;
-    /* padding-top: 155px; */
-    padding-left: 10px;
-}
-
-
-
-.banner h1{
-    font-family:Poppins;
-    font-size: 40px;
-    text-transform: uppercase;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    padding:5px 0;
-    color:#fff;
-}
-
-.banner span{
-    text-align: left;
-}
-
-.banner span a{
-    width: 540px;
-    margin:auto;
-    padding-bottom: 20px;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-    text-align: left;
-    line-height: 24px;
-    letter-spacing: normal;
-    color:#fff;
-    text-decoration: none;
-}
-
-.project-button{
-    margin-top: 18px;
-}
-
-.banner .button{
-    width: 100%;
-}
-
-.banner-tittle .button{
-    display: inline;
-    width: 98px;;
-    font-family:Poppins;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 13px;
-    padding:9px 36px;
-    border-radius:3px;
-    color:#fff;
-    background-color: #fbbe3f;
-    text-decoration: none;
-    transition: all 0.4s;
-}
-
-
-/* .banner-tittle .button:first-child:hover {
-    background:none;
-    color: #fbbe3f;
-    padding:7px 34px;
-    border:solid 1px #fbbe3f;
-} */
-/* 整個大壞掉!
-
-.banner-tittle .button:first-child,:hover {
-    background:none;
-    color: #fbbe3f;
-    padding:7px 34px;
-    border:solid 1px #fbbe3f;
-} */
-
-.banner-tittle .button:first-child{
-    margin-right: 10px;
-}
-
-.banner-tittle .button:nth-child(2){
-    margin-bottom: 1px;
-    margin-right: 10px;
-    padding:8px 30px;
-    color:#333;
-    background-color: #fff;
-}
-
-/* .banner-tittle .button:nth-child(2):hover{
-    margin-right: 10px;
-    color:#fff;
-    border: 1px solid #fff;
-    background:none;
-} */
-
-.services-wrap{
-    width: 100%;
-    background-color: #f8f8f8;
-}
-
-.services,.blog-wrap{
-    width: 960px;
-    margin: auto;
-    padding-bottom: 60px;
-    background-color: #f8f8f8;
-}
-
-.services-title h2,.blog-title h2{
-    font-family:Poppins;
-    font-weight: bold;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    padding-top: 63px;
-    color:#333;
-}
-
-.services-title hr,.blog-title hr{
-    width:110px;
-    margin: auto;
-    margin-top: 10px;
-    background-color: #e1e3e5;
-    opacity: 0.5;
-}
-
-.services-title p,.blog-title p{
-    width: 540px;
-    margin:auto;
-    padding: 15px 15px 25px 15px;
-    font-size: 8px;
-    font-weight: 100;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 24px;
-    letter-spacing: normal;
-    text-align: center;
-    color:#444;
-    opacity: 0.85;
-}
-
-.col-3{
-    width: 300px;
-    margin: 10px;
-    float: left;
-}
-
-.col-3 img{
-    width: 100%;   
-}
-
-.col-3 title{
-    font-family:Poppins;
-    line-height: 26;
-    text-align: left;
-    letter-spacing: normal; 
-    color: #333;
-}
-
-.col-3 h3{
-    font-family:Poppins;
-    font-size: 18px;
-    font-weight: 100;
-    margin:23px 0 10px 0;
-}
-
-.col-3 p{
-    padding-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: normal;
-    text-align: left;
-    color: #444;
-}
-
-.col-3 i{
-    padding-left: 5px;
-}
-
-.col-3 a{
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 85%;
-    line-height: 20px;
-    color: #444;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.renovation-wrap{
-    width: 960px;
-    margin:auto;
-    margin-bottom: 50px;
-}
-
-.renovation-title h2{
-    font-family:Poppins;
-    font-weight: bold;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    padding-top: 63px;
-    color:#333;
-}
-
-.renovation-title hr{
-    margin: auto;
-    margin-top: 10px;
-    width:150px;
-    background-color: #e1e3e5;
-    opacity: 0.5;
-}
-
-.renovation-title p{
-    width: 540px;
-    margin:auto;
-    padding: 15px 15px 25px 15px;
-    font-size: 8px;
-    font-weight: 100;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 24px;
-    letter-spacing: normal;
-    text-align: center;
-    color:#444;
-    opacity: 0.85;
-}
-
-.main-item{
-    width: 460px;
-    float: left;
-    margin: 10px;
-}
-.list-item{
-    width: 460px;
-    float: left;
-    margin: 10px;
-}
-.main-item img{
-    width: 100%;
-    height: 270px;
-}
-.main-item h2{
-    font-family:Poppins;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    font-size: 17px;
-    font-weight: 500;
-    padding: 5px 0;
-    color:#333;
-}
-
-.main-item p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    padding-bottom: 15px;
-    line-height: 24px;
-    letter-spacing: normal;
-    text-align: left;
-    color: #444;
-}
-
-.main-item a{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 85%;
-    font-weight: bold;
-    line-height: 24px;
-    letter-spacing: normal;
-    text-align: left;
-    color: #444;
-    text-decoration: none;
-}
-
-.main-item i{
-    padding-left:5px;
-}
-
-
-.list-item h3{
-    font-family: 'Open Sans';
-    font-size: 13px;
-}
-
-.list-item p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    padding: 5px;
-    line-height: 24px;
-    letter-spacing: normal;
-    text-align: left;
-    color: #444;
-}
-
-.list-item span{
-    color: #fbbe3f;
-    font-size: 15px;
-    font-weight: bold;
-    padding-right: 10px;
-    line-height: 18px;
-    text-align: left;
-    letter-spacing: normal;
-}
-
-.list-item a{
-    float: right;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 80%;
-    font-weight: bold;
-    line-height: 24px;
-    letter-spacing: normal;
-    text-align: left;
-    color: #444;
-    text-decoration: none;
-}
-
-.list-item i{
-    padding-right: 5px;
-}
-
-.projects{
-    width:100%;
-    height: 680px;
-    margin: auto;
-    background:linear-gradient(0deg,hsla(0,50%,0%,.8),hsla(0,50%,0%,.4)),url(image/asset\ 1.jpeg);
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.projects h2{
-    font-family:Poppins;
-    padding-top: 64px;
-    text-align: center;
-    color: #fff;
-}
-
-.projects p{
-    width: 500px;
-    margin: auto;
-    padding: 10px 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 4px;
-    line-height: 24px;
-    text-align: center;
-    opacity: 0.85;
-    color: #fff;
-}
-
-.projects hr{
-    margin: auto;
-    margin-top: 10px;
-    width:120px;
-    background-color: #fff;
-}
-
-.img-region{
-    /* width:794px; */
-    width: 65%;
-    margin: auto;
-    padding-bottom: 20px;
-}
-
-.img-item-region{
-    width:92%;
-    margin:auto;
-}
-
-
-.projects img{
-    width:31%;
-    margin: 6px;   
-}
-
-.projects-button{
-    width: 126px;
-    margin: auto;
-    margin-top: 18px;
-}
-
-.projects .button{
-    width: 100%;
-}
-
-.projects-button .button{
-    /* width: 98px; */
-    margin: auto;
-    font-family:Poppins;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 10px;
-    padding: 6px 30px;
-    border-radius:3px;
-    color:#333;
-    background-color: #fff;
-    text-decoration: none;
-}
-
-.blog-wrap{
-    background-color: #fff;
-}
-
-.clients-wrap{
-    width: 100%;
-    background-color: #f8f8f8;
-}
-
-.clients{
-    width: 960px;
-    margin: auto;
-    padding-bottom: 60px;
-    background-color: #f8f8f8;
-}
-
-.clients-title h2{
-    font-family:Poppins;
-    font-weight: bold;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    padding-top: 63px;
-    color:#333;
-}
-
-.clients-title hr{
-    margin: auto;
-    margin-top: 10px;
-    width:120px;
-    background-color: #e1e3e5;
-    opacity: 0.5;
-}
-
-.clients-title p{
-    width: 540px;
-    margin:auto;
-    padding: 15px 15px 25px 15px;
-    font-size: 8px;
-    font-weight: 100;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 24px;
-    letter-spacing: normal;
-    text-align: center;
-    color:#444;
-    opacity: 0.85;
-}
-
-
-.clients-item {
-    width: auto;
-}
-
-
-.clients-infor{
-    width: auto;
-}
-
-.clients-infor{
-    width: auto;
-}
-
-.clients-infor:first-child{
-    margin-left: 53px;
-}
-
-.clients-infor .clients-pic{
-    float: left;
-    width: 118px;
-    height: 138px;
-    margin-left: 15px;
-    border-radius: 100%;
-}
-
-
-.clients-pic img{
-    /* float: left; */
-    position: relative;
-    border-radius: 100%;
-}
-
-.clients-pic i{
-    font-size: 15px;
-    color: #fbbe3f;
-}
-
-.clients-infor .clients-pic i:nth-child(2){
-    position: relative;;
-    top: -18px;
-    right: -6px;
-}
-
-.clients-infor .clients-pic i:nth-child(3){
-    position: relative;;
-    top: -7px;
-    right:-8px;
-}
-
-.clients-infor .clients-pic i:nth-child(4){
-    position: relative;;
-    top: -1px;
-    right:-12px;
-}
-
-.clients-infor .clients-pic i:nth-child(5){
-    position: relative;;
-    top:-6px;
-    right:-16px;
-}
-
-.clients-infor .clients-pic i:nth-child(6){
-    position: relative;;
-    top: -18px;
-    right:-17px;
-}
-
-
-.clients-text{
-    float: left;
-}
-
-.clients-infor .clients-text h3{
-    width: 217px;
-    font-family:Poppins;
-    font-size: 15px;
-    padding: 10px;
-    text-align: left;
-    color: #333;
-}
-
-.clients-infor .clients-text p{
-    width: 265px;
-    padding: 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 4px;
-    line-height: 24px;
-    text-align: left;
-    opacity: 0.85;
-    color: #777;
-}
-
-.choose-us-wrap{
-    width: 100%;
-    height: 537px;
-    margin: auto;
-    background:linear-gradient(0deg,hsla(0,50%,0%,.8),hsla(0,50%,0%,.4)),url(image/asset\ 0.jpeg);
-    background-attachment: fixed;
-    background-size: cover;
-    /* background-position-y: 0%; */
-}
-
-.choose-us{
-    width: 960px;
-    height: 537px;
-    margin: auto;
-    /* background:linear-gradient(0deg,hsla(0,50%,0%,.8),hsla(0,50%,0%,.4)),url(image/asset\ 0.jpeg); */
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.choose-us h2{
-    font-family:Poppins;
-    padding-top: 64px;
-    text-align: center;
-    color: #fff;
-}
-
-
-.choose-us hr{
-    margin: auto;
-    margin-top: 10px;
-    width: 120px;
-    background-color: #fff;
-}
-
-.choose-us-region {
-    width: 960px;
-    margin: auto;
-    margin-top: 18px;
-}
-
-.choose-us-region .choose-us-youtube{
-    float: left;
-    width: 50%;
-    height: auto;
-}
-
-
-.choose-us-region .choose-us-youtube p{
-    width: 465px;
-    padding-bottom: 20px;
-    padding-top: 30px;
-    padding-left: 15px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-}
-
-.choose-us-region .choose-us-intro{
-    float: left;
-    width: 50%;
-}
-
-.choose-us-intro .choose-us-item .icon-wrap{
-    float: left;
-    width: 60px;
-    height: 60px;
-    margin-top: 16px;
-    margin-right: 15px;
-    margin-left: 15px;
-    border-radius: 100%;
-    background-color: #fbbe3f;
-    color: #444;
-}
-
-.choose-us-intro .choose-us-item {
-  display: inline;
-}
-
-.choose-us-intro .choose-us-item i{
-    float: left;
-    font-size: 27px;
-    margin-left: 19px;
-    margin-top: 18px;
-    color: #fff;
-}
-/* 
-.choose-us-intro .choose-us-item:nth-child(3) i{
-    margin-right: 22px !important;
-} */
-
-.choose-us-intro .choose-us-item h3{
-    float: left;
-    font-family:Poppins;
-    font-size: 15px;
-    /* padding-top: 64px; */
-    text-align:left;
-    color: #fff;
-}
-
-.choose-us-intro .choose-us-item p{
-    float: left;
-    width: 385px;
-    padding-bottom: 20px;
-    padding-top: 7px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-}
-
-/*-------------------special start-------------------*/
-.special-wrap{
-    width: 100%;
-    background-color: #f8f8f8;
-}
-
-.special-wrap{
-    width: 960px;
-    /* height: 200vh; */
-    margin: auto;
-    padding-bottom: 60px;
-    background-color: #fff;
-}
-
-.special-title .special-nav{
-    width: 430px;
-    /* height: 15px; */
-    margin: auto;
-    /* background: #aaa; */
-}
-
-.special-title .special-nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-}
-
-.special-title .special-nav ul li{
-    /* display:inline-block */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: justify; */
-}
-
-.special-title .special-nav ul li a{
-    margin-bottom: 10px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 13px;
-    padding-right: 8px;
-    border-right: solid 1px #444;
-    font-size: 13px;
-    font-family:Poppins;
-    text-align: left;
-    text-decoration: none;
-    letter-spacing: normal; 
-    color: #444;
-}
-
-.special-title .special-nav ul li:nth-child(2) a{
-    font-weight: 900;
-    /* font-size: 14px; */
-}
-
-.special-title .special-nav ul li:last-child a{
-    border-right: none;
-}
-
-
-.special-title h2{
-    font-family:Poppins;
-    font-weight: bold;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    padding-top: 63px;
-    color:#333;
-}
-
-.special-title hr{
-    width:110px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: #e1e3e5;
-    opacity: 0.5;
-}
-
-.special-title p{
-    width: 540px;
-    margin:auto;
-    padding: 15px 15px 25px 15px;
-    font-size: 8px;
-    font-weight: 100;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 24px;
-    letter-spacing: normal;
-    text-align: center;
-    color:#444;
-    opacity: 0.75;
-}
-
-
-/* *{
-    outline: none;
-} */
-
-.special-region{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 30px;
-}
-
-.special-col-3{
-    width: auto;
-    /* width: 350px; */
-    /* height: 300px; */
-}
-
-.special-col-3:nth-child(2){
-    /* width: 150px;
-    height: 300px; */
-    width:auto;
-}
-
-/* .special-col-3 br{
-    height: 1px;
-} */
-
-.special-form{
-    display:flex;
-    flex-direction:column;
-    justify-items: space-between;
-    /* width:400px; */
-    height: 380px;
-    padding:10px;
-    padding-bottom: 17px;
-    background-color: #213047;
-    border-radius:15px;
-}
-
-.special-form input{
-    width: 274px;
-    height: 43px;
-    margin: 7px 5px;
-    border-radius:2px;
-  
-}
-
-.special-form textarea{
-    width: 277px;
-    height: 130px;
-    margin:8px 5px;
-    padding-top: 5px;
-    border-radius:2px;
-    resize: none;
-}
-
-.special-form a{
-    display: inline;
-    width: 209px;
-    font-family: Poppins;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 13px;
-    margin-top: 8px;
-    margin-left: 4px;
-    padding: 12px 36px;
-    border-radius: 3px;
-    color: #fff;
-    background-color: #fbbe3f;
-    text-decoration: none;
-    transition: all 0.4s;
-}
-
-.icon-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-content: space-around; */
-    height: 406px;;
-}
-
-.icon-container .icon-item{
-    /* display: flex; */
-    flex-direction:column;
-    justify-content: center;
-    align-items: space-around;
-    width: 136px;
-}
-
-.icon-container .icon-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    margin: auto;
-    border:2px solid #213047;
-    border-radius: 100%;
-    background-color: #fff;
-    color:#213047;
-}
-
-.icon-img i{
-    /* float: left;
-    font-size: 27px;
-    margin-left: 19px;
-    margin-top: 18px; */
-    display: flex;
-    color:#213047;
-    font-size: 30px;
-}
-
-.icon-container p{
-    /* display: flex; */
-    width: 80px;
-    margin:auto;
-    padding:5px;
-    font-size: 14px;
-    font-weight: 100;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 20px;
-    letter-spacing: normal;
-    text-align: center;
-    color:#213047;
-}
-
-.text-container h3{
-    /* float: left; */
-    font-family:Poppins;
-    font-size: 15px;
-    padding:5px;
-    text-align:left;
-    color: #444;
-}
-
-.text-container p{
-    /* float: left; */
-    width: 446px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
-    line-height: 19px;
-    letter-spacing: normal;
-    text-align: left;
-    color: #444;
-    /* padding-top: 1px; */
-}
-
-.text-container p{
-    padding: 5px;
-}
-/* 
-.img-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-} */
-
-.img-container img{
-    width: 220px;
-    height: 145px;
-    margin-left: 0px;
-    margin-top: 17px;
-}
-
-.img-container img:first-child {
-   margin-right: 10px;
-}
-
-/*-------------------special end-------------------*/
-
-/*-------------------partner start-------------------*/
-.partner-wrap{
-    width: 100%;
-    background: #f8f8f8;
-    color:#444;
-}
-
-.partner-wrap .partner{
-    width: 960px;
-    margin: auto;
-}
-
-.partner .partner-region{
-    position: relative;
-    top: 15px;
-    width: 96%;
-    height: 70px;
-    margin:auto;
-}
-
-.partner-wrap .partner a{
-    font-family: 'Open Sans', sans-serif;
-
-    padding:0px 52px ;
-    font-size: 30px;
-    font-weight: 900;
-    color: #333;
-}
-/*-------------------partner end-------------------*/
-
-/*-------------------contact-us start-------------------*/
-
-.contact-us{
-    width: 100%;
-    background: #213047;
-    color: #fff;
-    
-}
-
-.contact-us h3{
-    font-family:Poppins;
-    font-size: 15px;
-    padding:5px;
-    text-align:left;
-}
-
-.contact-us p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    padding:5px;
-    text-align:left;
-    opacity: 0.85;
-}
-
-.contact-us a{
-    font-family:Poppins;
-    font-size: 12px;
-    color: #fff;
-}
-
-.contact-us-region{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 960px;
-    padding-top: 45px;
-    margin: auto;
-    padding-bottom: 50px;
-}
-
-.contact-us-region .contact-us-item{
-    width: 230px;
-}
-
-
-.contact-us-item li a{
-    text-decoration: none;
-}
-
-
-.contact-us-item ul li {
-    text-decoration: none;
-}
-
-.contact-us-item:first-child h3{
-    font-family:Poppins;
-    font-size: 15px;
-    padding:5px;
-    text-align:left;
-}
-
-.contact-us-item:nth-child(2){
-    width: 232px;
-    padding-left: 20px;
-}
-    
-
-.contact-us-item:nth-child(2) h3{
-
-}
-
-.contact-us-item:nth-child(2) .company-link {
-    width: 250px;
-}
-
-.contact-us-item:nth-child(2) .company-link  ul{
-    float: left;
-    width: 250px;
-    text-decoration: none;
-    
-}
-
-.contact-us-item:nth-child(2) .company-link  ul li{    
-    display: inline-block;
-    width: 100px;
-    list-style-type:none;
-}
-
-.contact-us-item:nth-child(2) .company-link  a{
-    width: 100px;
-    text-decoration: none;
-    
-}
-
-.contact-us-item:nth-child(3) .contact {
-    width: 200px;
-    float: left;
- 
-}
-
-.contact-us-item:nth-child(3) .contact p,i{
-    color:#fff;
-    /* opacity: 0.5; */
-}
-
-.contact-us-item:nth-child(3) .contact .ml{
-    height: 25px;
-    margin-left: 14px;
-}
-
-.contact-us-item:nth-child(3) .icon-contact{
-    width: 27px;
-}
-
-.contact-us-item:nth-child(3) .fl p{
-    float: left;
-}
-
-.contact-us-item:nth-child(3) p{
-    width: 139px;
-}
-
-.contact-us-item:nth-child(3) i{
-    font-size: 15px;
-    float: left;
-    margin-left: 5px;
-    margin-right: 5px;
-    opacity: 0.5;
-}
-
-.contact-us-item:nth-child(3) .fz{
-    font-size: 13px;
-}
-
-.contact-us-item:nth-child(3)  .tal{
-    text-align: left;
-    padding: 0;
-}
-
-.contact-us-item:nth-child(4) {
-    display: inline;
-    float: left;
-}
-
-.contact-us-item:nth-child(4) .new-sletter{
-    width: 300px;
-}
-
-.contact-us-item:nth-child(4) p{
-   width: 173px;
-}
-
-.contact-us-item:nth-child(4) i{
-    float: left;
-    height: 62px;
-    margin-right: 10px;
-    font-size: 28px;
-    color: #fbbe3f;
-    opacity: 1;
-}
-
-.contact-us-item:nth-child(4) .cc{
-    position: relative;
-    left: -39px;
-    float: left;
-    width: 30px;
-    height: 34px;
-    background:#fbbe3f;
-    color: #213047;
-}
-.contact-us-item:nth-child(4) a{
-    background:#fbbe3f;
-    color: #213047;
-}
-/*-------------------contact-us end-------------------*/
-/*-------------------footer start-----------------*/
-.wrap-footer{
-    width: 100%;
-    background-color: #1a2a42;
-    color:#444;
-}
-
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 960px;
-    margin: auto;
-}
-
-.footer p{
-    padding:25px 0;
-    font-size: 12px;
-    color: #fff;
-    opacity: .5;
-}
-
-.footer .footer-media i{
-    opacity: .5;
-    padding: 0 10px;
-    padding-top: 25px;
-}
-
-.footer .fr{
-    float: right;
-}
-/*-------------------footer end-------------------*/
-/* *{
-    outline:none;
-} */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trowel-Trowl Theme</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+<!-- top-line star-->
+    <header class="top-line">
+        <a href="#"><img src="image/asset 2.png" alt=""></a>
+        <div class="info_section">
+            <div class="contact-info">
+                <div class="icon_container">
+                        <i class="fa fa-volume-control-phone"></i>
+                </div>
+                <div class="info_container">
+                    <p class="small_string ">email@example.com</p>						
+                    <p class="big_string">+390-211-881</p>						
+                </div>
+            </div>
+            <div class="contact-info mid">
+                <div class="icon_container">
+                    <i class="fa fa-map-marker"></i>
+                </div>
+                <div class="info_container middle">
+                    <p class="small_string">New York, United States</p>						
+                    <p class="big_string wl">Pennsylvania Avenue</p>						
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="icon_container">
+                    <i class="fa fa-calendar"></i>
+                </div>
+                <div class="info_container">
+                    <div class="info_text">
+                        <p class="small_string">Monday to Saturday</p>						
+                        <p class="big_string">8:00 - 20:45</p>	
+                    </div>					
+                </div>
+            </div>
+         </div>   
+    </header>
+    <div class="clearfix"></div>
+<!-- top-line end-->
+    <div class="header">
+        <nav class="navgation">
+            <ul>
+                <li>
+                    <a href="#" class="active">HOME<i class="fa fa-angle-down"></i></a>   
+                </li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li>
+                    <a href="#">PAGES<i class="fa fa-angle-down"></i></a>
+                </li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">SHOP<i class="fa fa-angle-down"></i></a></li>
+                <li><a href="#">TEAM</a></li>
+            </ul>      
+        <div class="social_media">
+                <a href="#" target="_blank"><i class="fa fa-facebook"></i></i></a>
+
+                <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                
+                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                
+                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+
+                <a href="#" class="searchsubmit"><i class="fa fa-search"></i></a>
+        </div>
+        </nav>
+    </div>
+    <div class="clearfix"></div>
+    <!-- banner start -->
+    <section class="wrap">
+        <div class="banner">
+            <div class="banner-tittle-region">
+                <div class="banner-tittle">
+                    <h1>Planning the construction of a building</h1>
+                    <span><a href="#">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration sagittis nisl sit amet nisi gravida</a></span>
+                    <div class="banner-button">
+                    <a href="#" class="button">Read more</a>
+                    <a href="#" class="button">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner end -->
+    <!-- services start -->
+    <section class="services-wrap">
+        <div class="services">
+            <div class="services-title">
+                <h2>OUR SERVICES</h2>
+                <hr>
+                <p>Suspendisse vulputate nibh feugiat ex dapibus aliquam. Maecenas eget erat arcu. Pellentesque non diam volutpat dolor viverra convallis.</p>
+            </div>
+            <!-- <div class="slider_arrows">
+            </div>    -->
+            <div class="col-3">
+                <img src="image/asset 6.jpeg" alt="">
+                <h3>INTERIOR DESIGN</h3>
+                <p>
+                    Maecenas condimentum ante hendrerit fermentum, commodo eleifend elit eleifend. In justo nisi, varius dignissim felis at, efficitur accumsan nisl. Nulla gravida nibh tortor in </p>
+                <a href="#">Read more<i class="fa fa-angle-right"></i></a>
+            </div>   
+            <div class="col-3">
+                <img src="image/asset 3.jpeg" alt="">
+                <h3>METAL ROOFING</h3>
+                <p>
+                    Maecenas condimentum ante hendrerit fermentum, commodo eleifend elit eleifend. In justo nisi, varius dignissim felis at, efficitur accumsan nisl. Nulla gravida nibh tortor in </p>
+                <a href="#">Read more<i class="fa fa-angle-right"></i></a>
+            </div>   
+            <div class="col-3">
+                <img src="image/asset 4.jpeg" alt="">
+                <h3>CONSTRUCTION</h3>
+                <p>
+                    Maecenas condimentum ante hendrerit fermentum, commodo eleifend elit eleifend. In justo nisi, varius dignissim felis at, efficitur accumsan nisl. Nulla gravida nibh tortor in </p>
+                <a href="#">Read more<i class="fa fa-angle-right"></i></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- services end -->
+   <!--  renovation start -->
+    <section class="renovation-wrap">
+            <div class="renovation-title">
+                <h2>RENOVATION WORKS</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsum excepturi quidem natus. Vitae rem, fugiat quis cupiditate </p>
+            </div>
+            <div class="main-item">
+                <img src="image/asset 7.jpeg" alt="">
+                <h2>COMPLEETE BATHROOM RESTOATION</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, sed harum ipsum amet voluptatibus facilis molestias vitae  crycus</p>
+                <a href="#">Read more<i class="fa fa-angle-right"></i></a>
+            </div>
+            <div class="list-item">
+                <div class="item">
+                    <h3><span>1</span> SEND US PHOTOS OF YOUR ROOM</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, natus nesciunt deserunt, sunt voluptatum beatae sapiente, labore asperiores commodi odio explicabo modi magnam suscipit veniam!</p>
+                </div>
+                <div class="item">
+                    <h3><span>2</span> WE GET THEM AND ESTIMATE REPAIR COST</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, natus nesciunt deserunt, sunt voluptatum beatae sapiente, labore asperiores commodi odio explicabo modi magnam suscipit veniam!</p>
+                </div>
+                <div class="item">
+                    <h3><span>3</span>YOU RECEIVE THE ANSWER ON YOUR EMAIL</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, natus nesciunt deserunt, sunt voluptatum beatae sapiente, labore asperiores commodi odio explicabo modi magnam suscipit veniam!</p>
+                </div>
+                <div class="item">
+                    <h3><span>4</span>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, natus nesciunt deserunt, sunt voluptatum beatae sapiente, labore</p>
+                </div>
+                <a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i></i>Send my photos</a>
+            </div>
+            <div class="clearfix"></div>
+    </section>
+    <!-- renovation end -->
+    <!-- projects start -->
+    <section class="warp" >
+        <div class="projects" >
+            <h2>OUR RECENT PROJECTS</h2>
+            <hr>
+            <p>Nunc bibendum eleifend orci, et iaculis justo ullamcorper eu. Pellentesque mollis elit vel commodo tincidunt. Donec in lobortis dolor.</p>
+            <div class="img-region">   
+                <!-- 此img區塊置中需要再設一個region才能調整 -->
+                <div class="img-item-region">
+                    <img src="image/asset 11.jpeg" alt="">
+                    <img src="image/asset 12.jpeg" alt="">
+                    <img src="image/asset 13.jpeg" alt="">
+                    <img src="image/asset 14.jpeg" alt="">
+                    <img src="image/asset 15.jpeg" alt="">
+                    <img src="image/asset 16.jpeg" alt="">
+                </div>
+                <!-- 此img區塊置中需要再設一個region才能調整 -->
+            </div>
+            <div class="projects-button">
+                <a href="#" class="button">Read more</a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <!-- projects end -->
+    <!--blog start -->
+    <section class="blog-wrap">
+            <div class="blog-title">
+                <h2>OUR BLOG</h2>
+                <hr>
+                <p>Suspendisse vulputate nibh feugiat ex dapibus aliquam. Maecenas eget erat arcu. Pellentesque non diam volutpat dolor viverra convallis.</p>
+            </div>
+            <!-- <div class="slider_arrows">
+            </div>    -->
+            <div class="col-3">
+                <img src="image/asset 17.jpeg" alt="">
+                <h3>THE LOCAL HOSPITAL HAS BEEN OPENED IN FLORIDA</h3>
+                <p>
+                    Maecenas condimentum ante hendrerit fermentum, commodo eleifend elit eleifend. In justo nisi, varius dignissim felis at, efficitur accumsan nisl. Nulla gravida nibh tortor in </p>
+                <a href="#">Read more<i class="fa fa-angle-right"></i></a>
+            </div>   
+            <div class="col-3">
+                <img src="image/asset 18.jpeg" alt="">
+                <h3>CONSTRUCTION OF WOODEN COTTAGES AND HOUSES</h3>
+                <p>
+                    Maecenas condimentum ante hendrerit fermentum, commodo eleifend elit eleifend. In justo nisi, varius dignissim felis at, efficitur accumsan nisl. Nulla gravida nibh tortor in </p>
+                <a href="#">Read more<i class="fa fa-angle-right"></i></a>
+            </div>   
+            <div class="col-3">
+                <img src="image/asset 19.jpeg" alt="">
+                <h3>LEARN CONSTRUCTION INDUSTRY</h3>
+                <p>
+                    Maecenas condimentum ante hendrerit fermentum, commodo eleifend elit eleifend. In justo nisi, varius dignissim felis at, efficitur accumsan nisl. Nulla gravida nibh tortor in </p>
+                <a href="#">Read more<i class="fa fa-angle-right"></i></a>
+            </div>
+        <div class="clearfix"></div>
+    </section>    
+    <!-- end -->
+    <!-- start -->
+    <section class="clients-wrap">
+        <div class="clients">
+                <div class="clients-title">
+                    <h2>OUR CLIENTS</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam laudantium iusto vero necessitatibus facere eos veniam ipsum autem eveniet in.
+                        Suspendisse vulputatea convallis.</p>
+                </div>
+                <!-- <div class="slider_arrows">
+                </div>    -->
+                <div class="clients-item">
+                    <div class="clients-infor">
+                        <div class="clients-pic">
+                            <img src="image/asset 22.jpeg" alt="">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="clients-text">
+                            <h3>Brain Tracy</h3>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi, nostrum eaque qui alias ex ad quibusdam delectus deleniti debitis facilis necessitatibus sint animi rerum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clients-item">
+                        <div class="clients-infor">
+                            <div class="clients-pic">
+                                <img src="image/asset 23.jpeg" alt="">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="clients-text">
+                                <h3>Rebca Fegusen</h3>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi, nostrum eaque qui alias ex ad quibusdam delectus deleniti debitis facilis necessitatibus sint animi rerum.</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+    </section>
+    <!-- end -->
+    <!--choose-us start -->
+    <section class="choose-us-wrap" >
+            <div class="choose-us" >
+                <h2>WHY PEOPLE CHOOSE US</h2>
+                <hr>
+              
+                <div class="choose-us-region">   
+                    <div class="choose-us-youtube">
+                            <iframe width="450" height="235" src="https://www.youtube.com/embed/Nsf1CXHR0Eo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="margin-left:15px;margin-top:5px;"></iframe>
+                            <p>Mauris vel sem varius tortor pellentesque ultricies vitae vitae nibh. Nullam congue eros nisl, eu ornare mi vulputate eu. Pellentesque dictum ullamcorper arcu et interdum. Maecenas in enim cursus</p>
+                    </div>
+                    <div class="choose-us-intro">
+                        <div class="choose-us-item">
+                            <div class="icon-wrap">
+                                <i class="fa fa-building"></i>
+                            </div>
+                            <h3>BEST HOUSE RENOVATION</h3>
+                            <p>Suspendisse consectetur turpis vel rutrum posuere. In dapibus tortor ac sapien interdum, ullamcorper dolor ornare justo bibendum. Fusce pretium augue id lorem</p>
+                        </div>
+                        <div class="choose-us-item">
+                            <div class="icon-wrap">
+                                <i class="fa fa-cogs"></i>
+                            </div>
+                            <h3>PROFESSIONAL STAFF</h3>
+                            <p>Suspendisse consectetur turpis vel rutrum posuere. In dapibus tortor ac sapien interdum, ullamcorper dolor ornare justo bibendum. Fusce pretium augue id lorem</p>
+                        </div>
+                        <div class="choose-us-item">
+                            <div class="icon-wrap">
+                                <i class="fa fa-dollar" style="margin-left:22px;"></i>
+                            </div>
+                            <h3>LOW COSTS & HIGH QUALITY</h3>
+                            <p>Suspendisse consectetur turpis vel rutrum posuere. In dapibus tortor ac sapien interdum, ullamcorper dolor ornare justo bibendum. Fusce pretium augue id lorem</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+    <!--choose-us end -->
+    <!--special start -->
+    <section class="special-wrap">
+        <div class="special-title">
+            <h2>SPECIAL PROPOSITION</h2>
+            <hr>
+            <div class="special-nav">
+                <ul>
+                    <li><a href="#">Interior design</a></li>
+                    <li><a href="#">Construction</a></li>
+                    <li><a href="#">Architecture</a></li>
+                    <li><a href="#">Consulting</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div class="slider_arrows">
+        </div>    -->
+        <div class="special-region">
+        <div class="special-col-3">
+           <div class="special-form">
+            <input name="contact[name]" type="text" placeholder="Full Name"required="required" id="contact-form-name">
+            <input name="contact[name]" type="email" placeholder="Email Address"required="required" id="contact-form-name">
+            <input name="contact[name]" type="tel" placeholder="Phone Number"required="required" id="contact-form-name">
+            <textarea name="contact[message]" placeholder="Your Message..." id="contact-form-message"></textarea>
+            <a href="#">ORDER</a>
+           </div>
+        </div>   
+        <div class="special-col-3">
+            <div class="icon-container">
+                <div class="icon-item">
+                    <div class="icon-img">
+                        <i class="fa fa-skype" aria-hidden="true"></i>
+                    </div>
+                    <p>Contact us by skype</p>
+                </div>
+                <div class="icon-item">
+                        <div class="icon-img">
+                                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        </div>
+                        <p>Contact us by skype</p>
+                </div>
+            </div>
+        </div>   
+        <div class="special-col-3">
+            <div class="text-container">
+                    <h3>CONTRUCTION</h3>
+                    <p>We have got consectetur ac sapien interdum, ullamcorper dolor ornare justo bibendum. Fusce pretium augue id lorem.</p>                    
+                    <p>Suspendisse consectetur consectetur turpis vel rutrum posuere. In dapibus tortor ac sapien interdum, ullamcorper dolor ornare justo bibendum. Fusce pretium augue id lorem</p>                    
+                    <p>Suspendisse consectetur consectetur turpis vel rutrum posuere. In dapibus tortor ac sapien interdum, ullamcorper dolor ornare justo bibendum. Fusce pretium augue id lorem</p>                    
+                    <p>ornare justo bibendum. Fusce pretium augue id lorem</p>
+                    <div class="img-container">
+                        <img src="image/asset 31.jpeg" alt="">
+                        <img src="image/asset 32.jpeg" alt="">
+                    </div>
+            </div>
+        </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>    
+    <!--speicial end -->
+     <!--partner start -->
+     <div class="partner-wrap">
+         <div class="partner">
+             <div class="partner-region">
+                <a href="#">Partner1</a>
+                <a href="#">Partner2</a>
+                <a href="#">Partner3</a>
+                <a href="#">Partner4</a>
+             </div>
+         </div>
+     </div>
+    <!--partner end -->
+    <!--contact-us start -->
+    <footer class="contact-us">
+        <div class="contact-us-region">
+            <div class="contact-us-item">
+                <h3>INFORMATION</h3>
+                <p>Donec vise nisl ac nisl bdit ultearies ac seder mi. Pellentesque haitant mrbi
+
+                        Elemeum sed. Morbi imperdiet, erater aliquet ultrices efficitur, exer augue bibeum odio, id tincdunt urna purus vitae elit. Integer elementm eu risused eget sempers donecer pellentesquteg.</p>
+            </div>
+            <div class="contact-us-item">
+                <h3>COMPANY</h3>
+                <div class="company-link">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Team Archive</a></li>
+                        <li><a href="#">Renovation works</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Calculator</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">ervices Archive</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-us-item">
+                <h3>CONTACT US</h3>
+                <div class="contact-info mid contact">
+                        <div class="icon_container">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="info_container middle">
+                            <p class="small_string">New York, United States</p>						
+                            <p class="big_string wl">Pennsylvania Avenue</p>						
+                        </div>
+                </div>
+                <div class="contact-info contact">
+                      
+                        <div class="info_container fl">
+                            <i class="fa fa-volume-control-phone"></i>
+                            <p class="big_string ">+3(090)-211-881</p>	
+                            <i class="fa fa-envelope fz"></i>
+                            <p class="small_string  tal" style=" padding-bottom: 5px;">email@example.com</p>						
+                        </div>
+                </div>
+                
+                <div class="contact-info contact">
+                        <div class="icon_container">
+                            <i class="fa fa-skype"></i>
+                        </div>
+                        <div class="info_container fl">
+                            <p class="small_string tal">Construction.company</p>						
+           					
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-us-item">
+                        <h3>NEW SLETTERR</h3>
+                        <i class="fa fa-envelope-open" style="    padding-top: 9px;"></i>
+                        <p>Subscribe to our mailing list to get the updates to your email inbox</p>
+                        <div class="new-sletter">
+                                <input class="email" type="email" name="EMAIL" style="position: relative;
+                                left: -38px;float: left;;width:174px;height: 30px;border-radius: 5px;">
+                                <a href="#"><i class="fa fa-check cc" aria-hidden="true"></i></a>
+                        </div>
+                </div>
+                <div class="clearfix"></div>
+        </div>
+    </footer>
+    <!--contact-us end -->
+    <!--footer start -->
+    <footer class="wrap-footer">
+        <div class="footer">
+                <p>Copyright © 2018. Theme is developed with love by Art-Theme</p>
+                <div class="social_media footer-media fr">
+                        <a href="#" target="_blank"><i class="fa fa-facebook"></i></i></a>
+        
+                        <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                        
+                        <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                        
+                        <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </
+            </div>
+        </div>
+    </footer>
+    <!--footer end -->
+</body>
+</html>
