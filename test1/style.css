@@ -1,0 +1,189 @@
+* {
+    font-family: 'IndieFlower', impact;
+    vertical-align: bottom;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+   outline: solid 1px #f00;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+.clearfix{
+    margin: 0;
+    clear: both;
+}
+ 
+
+/*--導覽列開始--*/
+.nav-group {
+	position: fixed;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid rgba(255,255,255,.2); */
+    z-index: 10;
+}
+
+.nav-group a{
+
+}
+
+.nav-group img{
+    float: left;
+    width: 60px;
+    height: 50px;
+}
+
+.nav-group ul 
+    position: absolute;
+    left: 40%;
+}
+
+.nav-group ul {
+
+}
+
+.nav-group ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-group ul li p{
+    color:#fff;
+    margin:10px 15px 0 15px;
+    padding:5px;
+}
+
+.nav-group  ul li :hover p{
+    color:blue;
+}
+
+.carousel-inner{
+    /* background:url(img/bannerbg.jpg); */
+    background-size:cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 100vh;
+}
+
+
+
+@media screen and (min-width:768px){
+    .nav-group {
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        /* border: 1px solid rgba(255,255,255,.2); */
+        z-index: 10;
+    }
+    
+    .nav-group a{
+    
+    }
+    
+    .nav-group img{
+        float: left;
+        width: 60px;
+        height: 50px;
+    }
+    
+    .nav-group ul {
+        position: absolute;
+        left: 40%;
+    }
+    
+    .nav-group ul {
+    
+    }
+    
+    .nav-group ul li{
+        display: inline-block;
+        text-decoration: none;
+    }
+    
+    .nav-group ul li p{
+        color:#fff;
+        margin:10px 15px 0 15px;
+        padding:5px;
+    }
+    
+    .nav-group  ul li :hover p{
+        color:blue;
+    }
+    
+    /*.carousel-inner{
+        background:url(img/bannerbg.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        height: 100vh;
+    }
+    */
+    .carousel-inner{
+        /* background:url(img/bannerbg.jpg); */
+        position: relative;
+        background-size:cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        height: 100vh;
+    }
+    
+    body{
+        background: #222;
+        margin: 0rem;
+        min-height: 100vh;
+        font-family: Futura, sans-serif;
+    }
+    #canvas, #text {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    #text {
+      min-height: 100vh;
+      width: 100vw;
+      z-index: 1;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 8vmin;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    #text h1 {
+      font-size: 80px;
+    }
+    .box{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 42%;
+        height: 75%;
+        margin:auto;
+        border-radius: 100%;
+        background-color: #09f;
+    }
+
+    .carousel-inner img{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        max-width: 70%;
+        width:500px;
+        height:490px;
+        margin:auto;
+    }
+
+}
+
+/*--導覽列結束--*/
