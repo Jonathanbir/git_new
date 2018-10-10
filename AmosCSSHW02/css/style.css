@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* outline: 1px solid #f00; */
+    outline: 1px solid #f00;
 }
 
 h1,h2,h3,p{
@@ -25,7 +25,7 @@ h1{
 }
 
 h2{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 900;
     text-align: center;
 }
@@ -121,7 +121,7 @@ p{
 
 
 .wrap_banner{
-    width: 960px;
+    width: 100%;
     margin: auto;
 
 }
@@ -139,6 +139,7 @@ p{
     height: 510px;
     min-width: 101%;
     min-height: 101%;
+    background-size:100%;
     transform: translate3d(0%, 2px, 0px);
 }
 /*--banner   start--*/
@@ -207,6 +208,7 @@ p{
 .wrap_benefits{
     position: relative;
     width: 960px;
+    height: 100vh;
     margin: auto;
 }
 
@@ -295,7 +297,7 @@ p{
 /*--benefits   end--*/
 
 
-/*-- lgo  start--*/
+/*-- logo  start--*/
 .wrap_logo{
   
     width: 960px;
@@ -305,11 +307,200 @@ p{
 .logo_container{
     width: 900px;
     background: #f5f5f5;
+    padding:30px 0;
 }
 /*--logo   end--*/
 
 
+/*--  intense   start--*/
+.benefits_container{
+    width: 960px;
+    height: 100vh;
+    margin: auto;
+}
+
+
+/*-- intense    end--*/
+.wrap_intense{
+    width: 960px;
+    height: 100vh;
+    margin: auto;
+}
+
+.intense{
+    margin: auto;
+    padding:80px;
+}
+
+.intense_container h2{
+    padding: 10px 0;
+}
+
+.intense_container p{
+    width: 674px;
+    margin: auto;
+}
+
+.col-3-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+
+.col-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-3 img{
+    width: 300px;
+    margin:0 10px;
+
+}
+
+.intense_infro{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+
+.intense_infro .icon{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    width: 45px;
+    height: 45px;
+    /* margin: auto; */
+    border:1px solid #aaa;
+
+    
+}
+
+.icon i{
+    display: flex;
+    color:#00baff;
+    font-size: 18px;
+}
+
+.icon1 i{
+    transform: rotate(-45deg)
+}
+
+.icon3 i {
+    transform: rotate(-90deg)
+}
+
+/* .intense_infro .text h3,p{
+    text-align: left;
+} */
+
+/*--interface_ 1 start--*/
+.interface_one{
+    position: relative;
+    width: 960px;
+    height: 500px;
+    margin: auto;
+    
+}
+
+.interface_one img{
+    position: absolute;
+    top: 100px;
+    right: 150px;
+    width: 500px;
+}
+/*--interface_1  end--*/
+
+/*--interface_2   start--*/
+.interface_two{
+    position: relative;
+    width: 960px;
+    height: 500px;
+    margin: auto;
+}
+
+
+.interface_two img{
+    position: absolute;
+    top: 100px;
+    left:150px;
+    width: 500px;
+}
+/*--interface_2   end--*/
+
+
 /*--   start--*/
+.wrap_clients{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.wrap_clients img{
+    width: 100%;
+    background-size:100%;
+
+}
+
+.clients_container{
+    position: absolute;
+    top: 100px;
+    width: 960px;
+    margin: auto;
+}
+
+
+.clients_container h2{
+    color: #fff;
+    padding: 30px 0;
+}
+
+.member{
+    display: flex;
+    flex-direction:column;
+    width: 300px;
+    margin: auto;
+}
+
+.member img{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.member h3{
+    color: #00baff;
+    font-size: 15px;
+}
+
+.member p{
+    width: 200px !important;
+    font-size: 10px !important;
+    text-align: center;
+}
+
+.clients_container :nth-child(2) p{
+    color: #9b9b9b;
+}
+
+
+.clients_container p{
+    width: 630px;
+    color:#fff;
+    font-size: 15px;
+}
+
+.arrow_button{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+}
 
 /*--   end--*/
 
