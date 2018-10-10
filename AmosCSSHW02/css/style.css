@@ -69,14 +69,24 @@ p{
     height: 0;
     margin:auto;
 }
+
+
+.btn {
+    line-height: 28px;
+    border-radius: 3px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-width: 2px;
+    transition: .3s;
+    backface-visibility: hidden;
+}
 /*--navagation   start--*/
 
 .navagation{
-    position: relative;
-    width: 960px;
-    margin: auto;
+    position:fixed;
     z-index: 99;
-
+    width: 100%;
 }
 
 
@@ -84,6 +94,8 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 960px;
+    margin: auto;
 }
 
 .navbar_inner .navbar_brand{
@@ -103,7 +115,7 @@ p{
     margin-top: 10px;
 }
 
-.navbar_inner .navbar_menu ul li  a{
+.navbar_inner .navbar_menu ul li a{
     font-family: 'Cabin', sans-serif;
     font-size: 8px;
     font-weight: 600;
@@ -112,6 +124,20 @@ p{
     text-align: left;
     letter-spacing: normal;
     color: #9b9b9b;
+    transition: all .3s ease;
+}
+
+.navbar_inner .navbar_menu ul li a:hover{
+    color:#00baff;
+}
+
+.navbar_menu{
+    
+}
+
+.navbar_menu ul li a span i{
+    font-size: 1px;
+    padding-right:11px;
 }
 
 .navbar_inner .navbar_menu ul li:first-child a{
@@ -123,18 +149,21 @@ p{
     height: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    padding: 2px 7px;
+    padding: 5px 18px;
     border-radius: 3px;
-    background:#00baff;
+    background: #00baff;
     color: #fff;
     font-weight: 600;
-    font-size: 8px;
+    font-size: 7px;
+    transition: all .3s ease-out;
+}
+
+.navbar_inner .navbar_menu ul li:last-child a:hover{
+    background: #0095cc;
 }
 
 
-.navbar_menu{
-    
-}
+
 /*--navgation   end--*/
 
 
@@ -192,16 +221,27 @@ p{
     margin: auto;                                                      
 }
 
+.startup .button  a span i{
+    font-size: 1px;
+    padding-right:11px;
+}
+
+
 .startup .button a:first-child{
     width: 200px;
     height: 40px;
     margin-left: 10px;
-    padding: 6px 20px;
-    border-radius:3px;
-    background:#00baff;
+    padding: 7px 17px;
+    border-radius: 3px;
+    background: #00baff;
     color: #fff;
     font-weight: 600;
-    font-size: 8px;
+    font-size: 10px;
+    transition: all .3s ease-out;
+}
+
+.startup .button  a:hover{
+    background: #0095cc;
 }
 
 
@@ -216,9 +256,13 @@ p{
     color:#00baff;
     font-weight: 600;
     font-size: 10px;
+    transition: all .3s ease-out;
 }
 
-
+.startup .button a:nth-child(2):hover{
+   background-color:#00baff;
+   color: #fff;
+}
 
 /*--banner   end--*/
 
@@ -233,7 +277,7 @@ p{
 
 .wrap_benefits img{
     position: absolute;
-    top:-250px;
+    top:-203px;
     left: 190px;
     width:600px;
     height:350px;
@@ -320,13 +364,13 @@ p{
 
 /*-- logo  start--*/
 .wrap_logo{
-  
-    width: 960px;
-    margin: auto;
+    width: 100%;
+    background: #f5f5f5;
 }
 
 .logo_container{
-    width: 900px;
+    width: 960px;
+    margin: auto;
     background: #f5f5f5;
     padding:30px 0;
 }
@@ -415,9 +459,17 @@ p{
     color:#00baff;
     font-size: 18px;
 }
-
+/* 
 .icon1 i{
     transform: rotate(-45deg)
+} */
+
+.plane{
+    transform: rotate(-45deg)
+} 
+
+.bty{
+    transform: rotate(-90deg) 
 }
 
 .icon3 i {
@@ -451,7 +503,7 @@ p{
    
 } */
 
-.interface_one  .intense_infro .text h3:after{
+/* .interface_one  .intense_infro .text h3:after{
     content: '';
     position: absolute;
     right: -36%;
@@ -462,7 +514,7 @@ p{
     border: 0.5px solid #00baff;
     background-color: #00baff;
     color: #00baff;
-}
+} */
 
 .interface_one  .intense_infro .text h3{
     /* padding-left: 29px; */
@@ -494,6 +546,19 @@ p{
     font-size: 13px;
 }
 
+.interface_one  .intense_infro .icon .dot:after{
+    content: '';
+    position: absolute;
+    right: -83%;
+    top: 30%;
+    width:5px;
+    height: 5px;
+    border-radius:50%;
+    border: 0.5px solid #00baff;
+    background-color: #00baff;
+    color: #00baff;
+}
+
 
 .ps1{
     position: absolute;
@@ -505,7 +570,7 @@ p{
     content: '';
     position: absolute;
     right: -17%;
-    top: 42%;
+    top: 49%;
     width: 23%;
     border: 0.5px solid #00baff;
     color: #00baff;
@@ -604,7 +669,7 @@ p{
     content: '';
     position: absolute;
     left: -12%;
-    top: 42%;
+    top: 49%;
     width: 23%;
     border: 0.5px solid #00baff;
     color: #00baff;
@@ -619,6 +684,20 @@ p{
     border: 0.5px solid #00baff;
     color: #00baff;
     transform: rotate(-43deg);
+}
+
+
+.interface_two  .intense_infro .icon .dot:after{
+    content: '';
+    position: absolute;
+    right: 184%;
+    top: -1%;
+    width:5px;
+    height: 5px;
+    border-radius:50%;
+    border: 0.5px solid #00baff;
+    background-color: #00baff;
+    color: #00baff;
 }
 
 /*--interface_2   end--*/
@@ -873,7 +952,14 @@ p{
     color: #9b9b9b;
     font-weight: 600;
     font-size: 9px ;
+    transition: all .3s ease-out;
 }
+
+.col-4:nth-child(2) .box .box_container  .col-3-button:hover{
+    background-color: #00baff;
+    color: #fff;
+}
+
 
 
 
@@ -1000,8 +1086,13 @@ p{
     color: #fff;
     font-weight: 600;
     font-size: 9px ;
+    transition: all .3s ease-out;
 }
 
+
+.col-4:nth-child(3) .box .box_container  .col-3-button:hover{
+    background-color: #0095cc;
+}
 
 /*---- col-4-region(4)---- */
 
@@ -1096,6 +1187,13 @@ p{
     color: #9b9b9b;
     font-weight: 600;
     font-size: 9px ;
+    transition: all .3s ease-out;
+}
+
+
+.col-4:nth-child(4) .box .box_container  .col-3-button:hover{
+    background-color: #00baff;
+    color: #fff;
 }
 
 
@@ -1158,9 +1256,13 @@ p{
     color: #fff;
     font-weight: 600;
     font-size: 14px ;
+    transition: all .3s ease-out;
 }
 
 
+.subscribe .subcirbe_container a:hover{
+    background-color: #0095cc;
+}
 
 
 /*--subscribe     end--*/
@@ -1240,6 +1342,11 @@ p{
     font-size: 12px;
 }
 
+.footer_item .icon_tem .icon_img:hover a{
+    background-color: #0956b5;
+}
+
+
 
 .footer_container .footer_item:nth-child(2) {
     padding: 0 70px;
@@ -1312,12 +1419,17 @@ p{
     width: 70px;
     margin: auto 0;
     padding: 9px 6px;
+    white-space: nowrap;
     background-color: #00baff;
     color: #fff;
     font-weight: 600;
     font-size: 11px;
 }
 
+
+.footer_container .footer_item:nth-child(3) .subscribe_mail a:hover{
+    background-color: #0095cc;
+}
 
 .subscribe_mail .icon_item{
     flex-direction:column;
@@ -1350,3 +1462,7 @@ p{
 
 
 
+#0956b5
+#28d4f9
+#f96a23
+#0e7eb5
