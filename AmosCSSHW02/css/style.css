@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* outline: 1px solid #f00; */
+    outline: 1px solid #f00;
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -64,6 +64,35 @@ p{
     margin: auto;
 }
 
+
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #000;
+    font-size: 10px;
+    padding-left: 5px;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #000;
+    font-size: 10px;
+    padding-left: 5px;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #000;
+    font-size: 10px;
+    padding-left: 5px;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #000;
+    font-size: 10px;
+    padding-left: 5px;
+  }
+
+/*problem-----不知如何選取個別的input內文改css */
+
+
+
+
 .clearfix{
     clear: both;
     height: 0;
@@ -112,7 +141,8 @@ p{
 
 
 .navbar_inner .navbar_menu{
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    margin:auto 0;
 }
 
 .navbar_inner .navbar_menu ul li a{
@@ -290,6 +320,10 @@ p{
     width: 960px;
 }
 
+.benefits_container h2{
+    padding-top: 50px;
+}
+
 .benefits_container p{
     width: 674px;
     margin: auto;
@@ -298,8 +332,10 @@ p{
 .benefits_item_region{
     position: absolute;
     top: 300px;
-    width: 900px;
-    padding-bottom:70px;
+    width: 960px;
+    margin: auto;
+    margin-top: -11px;
+    padding-bottom: 77px;
    
 }
 
@@ -374,6 +410,17 @@ p{
     background: #f5f5f5;
     padding:30px 0;
 }
+
+.logo_container img{
+    width: 100px;
+    height: 44px;
+    margin: 0 24px;
+}
+
+.logo_container img:first-child{
+    margin-left: 39px;
+}
+
 /*--logo   end--*/
 
 
@@ -388,7 +435,7 @@ p{
 /*-- intense    end--*/
 .wrap_intense{
     width: 960px;
-    height: 100vh;
+    height: 92vh;
     margin: auto;
 }
 
@@ -484,7 +531,8 @@ p{
 .interface_one{
     position: relative;
     width: 960px;
-    height: 500px;
+    /* height: 500px; */
+    height: 393px;
     margin: auto;
     
 }
@@ -546,19 +594,50 @@ p{
     font-size: 13px;
 }
 
-.interface_one  .intense_infro .icon .dot:after{
+.interface_one  .intense_infro .icon .dot1:after{
     content: '';
     position: absolute;
-    right: -83%;
-    top: 30%;
-    width:5px;
+    right: -82%;
+    top: 34%;
+    width: 5px;
     height: 5px;
-    border-radius:50%;
-    border: 0.5px solid #00baff;
+    border-radius: 50%;
+    border: 1px solid #00baff;
     background-color: #00baff;
     color: #00baff;
 }
 
+/*problem -----dot如果家在plane裡面會變斜向移動 要+transform: rotate(45deg)改回來*/
+
+.interface_one  .intense_infro .icon .dot2:after{
+    content: '';
+    position: absolute;
+    right: -60px;
+    top: 208px;
+    width: 5px;
+    transform: rotate(45deg);
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid #00baff;
+    background-color: #00baff;
+    color: #00baff;
+}
+
+
+
+
+.interface_one  .intense_infro .icon .dot3:after{
+    content: '';
+    position: absolute;
+    right: -74%;
+    top: 48%;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid #00baff;
+    background-color: #00baff;
+    color: #00baff;
+}
 
 .ps1{
     position: absolute;
@@ -579,15 +658,13 @@ p{
 .ps1::after{
     content: '';
     position: absolute;
-    right: -36%;
-    top: 67%;
-    width: 22%;
+    right: -34%;
+    top: 71%;
+    width: 20%;
     border: 0.5px solid #00baff;
     color: #00baff;
     transform: rotate(43deg);
 }
-
-
 
 
 .ps2{
@@ -596,11 +673,43 @@ p{
     left: 9%;
 }
 
+.ps2::before{
+    content: '';
+    position: absolute;
+    right: -17%;
+    top: 49%;
+    width: 23%;
+    border: 0.5px solid #00baff;
+    color: #00baff;
+}
+
+.ps2::after{
+    content: '';
+    position: absolute;
+    right: -34%;
+    top: 71%;
+    width: 20%;
+    border: 0.5px solid #00baff;
+    color: #00baff;
+    transform: rotate(43deg);
+}
+
+
 
 .ps3{
     position: absolute;
-    top: 49%;
+    top: 62%;
     left: 11%;
+}
+
+.ps3::before{
+    content: '';
+    position: absolute;
+    right: -72%;
+    top: 53%;
+    width: 77%;
+    border: 0.5px solid #00baff;
+    color: #00baff;
 }
 
 
@@ -610,7 +719,7 @@ p{
 .interface_two{
     position: relative;
     width: 960px;
-    height: 500px;
+    height: 451px;
     margin: auto;
 }
 
@@ -644,6 +753,44 @@ p{
     font-size: 13px;
 }
 
+.interface_two  .intense_infro .icon .dot4:after{
+    content: '';
+    position: absolute;
+    right: 111px;
+    top: 52px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 0.5px solid #00baff;
+    background-color: #00baff;
+    color: #00baff;
+}
+
+.interface_two  .intense_infro .icon .dot5:after{
+    content: '';
+    position: absolute;
+    right: 102px;
+    top: 52px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 0.5px solid #00baff;
+    background-color: #00baff;
+    color: #00baff;
+}
+
+.interface_two  .intense_infro .icon .dot6:after{
+    content: '';
+    position: absolute;
+    left: -138px;
+    top: 35px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 0.5px solid #00baff;
+    background-color: #00baff;
+    color: #00baff;
+}
 
 .ps4{
     position: absolute;
@@ -652,25 +799,12 @@ p{
     
 }
 
-.ps5{
-    position: absolute;
-    top: 27%;
-    right: 9%;
-}
-
-
-.ps6{
-    position: absolute;
-    top: 51%;
-    right: 9%;
-}
-
 .ps4::before{
     content: '';
     position: absolute;
-    left: -12%;
-    top: 49%;
-    width: 23%;
+    left: -10%;
+    top: 60%;
+    width: 22%;
     border: 0.5px solid #00baff;
     color: #00baff;
 }
@@ -678,8 +812,8 @@ p{
 .ps4::after{
     content: '';
     position: absolute;
-    left: -31%;
-    top: 67%;
+    left: -29%;
+    top: 85%;
     width: 22%;
     border: 0.5px solid #00baff;
     color: #00baff;
@@ -687,11 +821,45 @@ p{
 }
 
 
-.interface_two  .intense_infro .icon .dot:after{
+.ps5{
+    position: absolute;
+    top: 27%;
+    right: 9%;
+}
+
+
+.ps5::before{
     content: '';
     position: absolute;
-    right: 184%;
-    top: -1%;
+    left: -25%;
+    top: 48%;
+    width: 34%;
+    border: 0.5px solid #00baff;
+    color: #00baff;
+}
+
+.ps6{
+    position: absolute;
+    top: 51%;
+    right: 9%;
+}
+
+.ps6::before{
+    content: '';
+    position: absolute;
+    left: -51%;
+    top: 47%;
+    width: 60%;
+    border: 0.5px solid #00baff;
+    color: #00baff;
+}
+
+
+.interface_two  .intense_infro .icon .dot4:after{
+    content: '';
+    position: absolute;
+    right: 183%;
+    top: 6%;
     width:5px;
     height: 5px;
     border-radius:50%;
@@ -722,7 +890,7 @@ p{
 
 .clients_container{
     position: absolute;
-    top: 0px;
+    top: 15px;
     width: 960px;
     margin: auto;
 }
@@ -1457,6 +1625,13 @@ p{
     font-size: 12px;
 }
 
+.wrap_copy_right{
+    width: 100%;
+}
+
+.copy_right{
+    
+}
 
 /*--footer   end--*/
 
