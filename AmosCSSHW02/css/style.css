@@ -137,7 +137,7 @@ p{
 
 .navbar_menu ul li a span i{
     font-size: 1px;
-    padding-right:11px;
+    padding: 0 5px;
 }
 
 .navbar_inner .navbar_menu ul li:first-child a{
@@ -145,11 +145,11 @@ p{
 }
 
 .navbar_inner .navbar_menu ul li:last-child a{
-    width: 150px;
+    /* width: 150px; */
     height: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    padding: 5px 18px;
+    padding: 5px 11px;
     border-radius: 3px;
     background: #00baff;
     color: #fff;
@@ -183,7 +183,7 @@ p{
     position: absolute;
     top: -44px;
     width:100%;
-    height: 510px;
+    height: 558px;
     min-width: 99%;
     min-height: 101%;
     background-size:100%;
@@ -192,7 +192,7 @@ p{
 /*--banner   start--*/
 .wrap_banner .startup{
     position: absolute;
-    top: -218px;
+    top: -252px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -203,7 +203,7 @@ p{
 }
 
 .startup h1{
-    font-size: 35px;
+    font-size: 38px;
     font-weight: 900;
     text-align: center;
 }
@@ -211,19 +211,19 @@ p{
 .startup p{
     font-size: 10px;
     text-align: center;
-    padding: 20px;
+    padding:10px 0;
 }
 
 .startup .button{
-    width: 243px;
+    width: 295px;
     white-space: nowrap;
     padding: 17px;
-    margin: auto;                                                      
+    margin: auto;                                                
 }
 
 .startup .button  a span i{
     font-size: 1px;
-    padding-right:11px;
+    padding: 0 5px;
 }
 
 
@@ -231,7 +231,7 @@ p{
     width: 200px;
     height: 40px;
     margin-left: 10px;
-    padding: 7px 17px;
+    padding: 8px 17px;
     border-radius: 3px;
     background: #00baff;
     color: #fff;
@@ -249,7 +249,7 @@ p{
     width: 200px;
     height: 40px;
     margin-left: 10px;
-    padding: 6px 20px;
+    padding: 7px 19px;
     border:1px solid #00baff;
     border-radius:3px;
     background-color: none;
