@@ -26,7 +26,7 @@ h2{
 }
 
 ul{
-    /* list-style-type: none; */
+    list-style-type: none;
 }
 /* 
 ul li{
@@ -61,6 +61,7 @@ a{
 .navagation{
     width: 960px;
     margin: auto;
+    padding:20px 0;
 }
 
 .nav-bar{
@@ -100,16 +101,23 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    width: 250px;
+    /* align-items: center;
+    width: 250px; */
 }
 
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 .search input{
     background-color: #fff;
     width: 100px;
-    height:24px;
-    margin-right:0px;
+    height:35px;
+    margin-right:-5px;
 
 } 
 
@@ -132,43 +140,51 @@ a{
 
 
 .search .icon-button{
-    width: 70px;
+    /* width: 70px; */
     margin: auto;
-    margin-left: -5px;
-    padding: 7px 0px;
-    border-radius:3px;
+    margin-right: 9px;
+    padding: 1px;
     color: #fff;
     background-color:#000;
+    font-weight: 600;
+    /* font-size: 9px ; */
+    transition: all .3s ease-out;
+}
+
+.cart{
+    margin: auto;
+    margin-left: 0px;
+    padding:1px;
+    color: #fff;
+    background-color: #00baff;
     font-weight: 600;
     font-size: 9px ;
     transition: all .3s ease-out;
 }
 
-.cart{
-    width: 95px;
+
+.cart i{
+    color: #fff;
 }
 
-
-.cart .icon-button {
-    background-color: #00baff;
-}
-
-.cart .icon-button span{
-    width: 50px;
-    height: 50px;
-    padding: 7px 9px;
+.search span{
+    /* width: 50px;
+    height: 50px; */
+    padding:8px 11px;
     color: #000;
     background-color: #f5f5f5;
 }
 
-.car .num-box{
-    width: 50px;
-    height: 50px;
+.search span span{
+    /* width: 50px;
+    height: 50px; */
+    padding:13px 11px;
+    color: #000;
     background-color: #f5f5f5;
 }
 
+
 .search a{
-    
     color:#000;
 }
 
@@ -353,15 +369,22 @@ a{
 
 .category-text:hover .button a{
    opacity: 1;
-   animation:hvr-push .3s ease 1;
+   /* animation:hvr-push .3s ease 1; */
+}
+
+@keyframes example{
+    from{transform:scale(1.2);}
+    to{transform:scale(0.8);}
 }
 
 .category-text .button a:hover{
     background-color: #000;
     opacity: 1;
-    /* transform: translateZ(0);
-    animation:hvr-push .3s ease 1; */
+    animation-name: :example;
+    animation-duration:0.2s;
 }
+
+
 
 /* ------category----*/
 
@@ -798,6 +821,10 @@ font-size: 62px;
 
 /* ------footer----*/
 
+
+a{
+    text-decoration: none !important;
+}
 
 /* *{
     outline: none;
