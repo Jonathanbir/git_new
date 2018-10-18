@@ -115,7 +115,7 @@ a{
 
 .search input{
     background-color: #fff;
-    width: 100px;
+    width: 125px;
     height:35px;
     margin-right:-5px;
 
@@ -508,19 +508,19 @@ a{
 
 
 
-.product-price{
+.price-title{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.product-price a{
+.price-title a{
     font-size: 10px;
     padding-left: 0;
     white-space: nowrap;
 }
 
-.product-price a:hover{
+.price-title a:hover{
     color: #3d9bef;
     transition: all .3s;
 }
@@ -530,7 +530,7 @@ a{
     flex-direction: column;
     /* justify-content: flex-start; */
     align-items: flex-start;
-    width: 100px;
+    /* width: 100px; */
     padding-bottom: 20px;
 }
 
@@ -539,9 +539,90 @@ a{
     font-weight: 900;
 }
 
+.title-region{
+    width: 100%;
+}
+
+.price-title .star{
+    margin-top:-10px;
+    padding: 7px 0;
+}
+
+.price-title .star i{
+    font-size: 10px;
+    color: #fbbe3f;
+}
+
+.price-title .star i:last-child{
+    color: #b6c5d7;
+}
+
 .price-icon{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
     width: 120px;
 }
+
+.price-icon a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px ;
+    margin: 0 2px;
+    padding: 5px 4px;
+    transition: all .3s ease-out;
+}
+
+
+.price-icon i{
+    padding:4px;
+}
+
+
+
+.price-icon a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+.search .icon-button{
+    /* width: 70px; */
+    margin: auto;
+    margin-right: 9px;
+    padding: 1px;
+    color: #fff;
+    background-color:#000;
+    font-weight: 600;
+    /* font-size: 9px ; */
+    transition: all .3s ease-out;
+}
+
+.icon{
+    padding:2px 0;
+    background-color: #00baff;
+    font-weight: 600;
+    font-size: 9px ;
+    transition: all .3s ease-out;
+}
+
+
+.icon2{
+    background-color: #f5f5f5;
+    font-size: 14px !important;
+    padding: 6px 4px;
+}
+
+.icon i{
+    color: #fff;
+}
+
+.icon2 i{
+    color: #888;
+}
+
 /* ------product----*/
 
 
@@ -574,6 +655,8 @@ font-size: 62px;
 .pos-r{
     position: relative;
 }
+
+
 
 .new::before{
     content: "new";
