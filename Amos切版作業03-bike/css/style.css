@@ -59,6 +59,7 @@ a{
 
 /* ------navagation ----*/
 .navagation{
+    /* position: fixed; */
     width: 960px;
     margin: auto;
     padding:20px 0;
@@ -95,6 +96,84 @@ a{
 .nav-inner ul li a{
     font-size: 11px;
     text-align: center;
+}
+.nav-inner .sub-menu:after {
+    content: "";
+    font-family: 'Font Awesome 5 free';
+    color: #337ab7;
+    font-weight: 900;
+    padding-left: 10px;
+}
+
+.sub-menu{
+    position: relative;
+    padding: 20px 0;
+}
+
+.nav-inner li .sub-menu-1{
+    display: none;
+    position: absolute;
+    top: 62px;
+    left: 16%;
+    background-color: #f5f5f5;
+    z-index: 10;
+}
+
+.nav-inner  li:hover .sub-menu-1{
+    display: block;
+}
+
+.sub-menu-container{
+    display: flex;
+    flex: 8%;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-right: 32px;
+}
+
+.sub-menu-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sub-menu-item img{
+    width:150px;
+    height:100px;
+}
+
+.sub-menu-item a{
+    font-size: 3px !important;
+    padding: 5px 0 !important;
+    color: #888;
+}
+
+.sub-menu-item a:nth-of-type(1){
+    font-size: 14px !important;
+    color: #000;
+    font-weight: 700;
+}
+
+.sub-menu-container .sub-menu-item:last-child{
+    position: relative;
+}
+
+.sub-menu-container .sub-menu-item:last-child img{
+    width: 280px;
+    height: 250px;
+    padding-right: 30px;
+}
+
+.sub-menu-container .sub-menu-item:last-child::after{
+    content: 'A GREAT SELECTION OF BIKES';
+    position: absolute;
+    bottom: 176px;
+    right: 70px;
+    font-size: 20px;
+    width: 150px;
+    color: #fff;
+
 }
 
 .nav-member{
@@ -436,6 +515,18 @@ a{
     font-size: 14px;
     font-weight: 900;
 
+}
+
+.arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.arrow i{
+    color: #888;
 }
 
 
